@@ -1,0 +1,34 @@
+.path-design {
+    text-decoration: underline var(--mainTc);
+    text-underline-offset: .2rem;
+    text-decoration-thickness: .11rem;
+    text-decoration-style:double;
+    color: var(--mainTc)
+}
+.nav-list {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-list a:hover {
+    transform: scale(1.2);
+}
+.nav-menu {
+    font-size: var(--font-heading-large);
+}
+   .mobile-nav {
+       display: block;
+       position: absolute;
+       right: 0;
+       top: 70px;
+       padding: 10px;
+       /* width: 30%; */
+       height: 100vh;
+       z-index: 1000;
+   }
+
+@media (max-width:768px) {
+    .nav-list {
+        flex-direction: column;
+    }
+}

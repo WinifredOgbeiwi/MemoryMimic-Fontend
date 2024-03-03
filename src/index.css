@@ -1,0 +1,40 @@
+:root {
+    --mainBc: white;
+    --mainTc: #651FFF;
+    --font-small: 14px;
+    --font-medium: 16px;
+    --font-large: 18px;
+    --font-xlarge: 20px;
+    --font-heading-small: 24px;
+    --font-heading-medium: 28px;
+    --font-heading-large: 32px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+nav {
+    padding: 40px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page-space {
+    margin-top: 100px;
+}

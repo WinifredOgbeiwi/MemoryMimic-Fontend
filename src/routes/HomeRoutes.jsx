@@ -6,11 +6,13 @@ import Home from '../pages/web/Home';
 import Contact from '../pages/web/Contact';
 import Privacy from '../pages/web/Privacy';
 import Faq from '../pages/web/Faq';
+import Header from '../layout/Header';
 
 const HomeRoutes = () => {
 
     return (
         <>
+        <Header/>
             <Routes>
                 <Route path={ROUTES.HOME} element={<Home />} />
                 <Route path={ROUTES.CONTACT} element={<Contact />} />
