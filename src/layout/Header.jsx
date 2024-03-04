@@ -5,6 +5,7 @@ import { navdata } from "../constant/data";
 import { AiOutlineMenuUnfold } from "react-icons/ai";
 import { FaTimes } from "react-icons/fa";
 import { MOBILE_WINDOW_SIZE, Mapping } from "../utils/util";
+import Button from "../components/common/Button";
 
 const Header = () => {
 
@@ -50,8 +51,8 @@ const Header = () => {
                     )} />  
             </ul>
                     <div className="nav_buttons">
-                        <button>Login</button>
-                        <button>Register</button>
+                        <Button text="Login " specific="nav_button2" />
+                        <Button text="Register" specific="nav_button" />
                     </div>
             </> : 
             <>

@@ -2,9 +2,10 @@
     text-decoration: underline var(--mainTc);
     text-underline-offset: .2rem;
     text-decoration-thickness: .11rem;
-    text-decoration-style:double;
+    text-decoration-style: double;
     color: var(--mainTc)
 }
+
 .nav-list {
     display: flex;
     gap: 30px;
@@ -13,19 +14,60 @@
 .nav-list a:hover {
     transform: scale(1.2);
 }
+
 .nav-menu {
     font-size: var(--font-heading-large);
 }
-   .mobile-nav {
-       display: block;
-       position: absolute;
-       right: 0;
-       top: 70px;
-       padding: 10px;
-       /* width: 30%; */
-       height: 100vh;
-       z-index: 1000;
-   }
+
+.mobile-nav {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 70px;
+    padding: 10px;
+    /* width: 30%; */
+    height: 100vh;
+    z-index: 1000;
+}
+
+/* BUTTON */
+
+.nav_buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.nav_button,
+.nav_button2 {
+    width: 5rem;
+    height: 2.2rem;
+    border: 2px solid var(--mainTc);
+}
+
+.nav_button {
+    background: var(--mainTc);
+    color: white;
+}
+
+.nav_button2 {
+    background: var(--mainBc);
+    color: var(--mainTc);
+}
+
+.nav_button:hover {
+    color: var(--mainTc);
+}
+
+.nav_button2:hover {
+    color: var(--mainBc);
+}
+
+.nav_button::before {
+    background: var(--mainBc);
+}
+.nav_button2::before {
+    background: var(--mainTc);
+}
 
 @media (max-width:768px) {
     .nav-list {
