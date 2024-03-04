@@ -97,10 +97,11 @@
     text-align: center;
 }
 
-.hero-content-container {
-    width: 55%;
-    margin-top: 10px;
-    gap: 20px;
+.hero-content-container,
+.title {
+    width: 70%;
+    margin-top: 20px;
+    gap: 25px;
 }
 
 .hero-container img {

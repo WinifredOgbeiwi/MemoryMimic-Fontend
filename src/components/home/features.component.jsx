@@ -1,20 +1,25 @@
 import React from 'react'
 import Images from '../../constant/assest'
 import Button from '../common/Button'
+import { Heading, SubHeadingParagraphs, SubSubHeadings, } from '../common/Texts'
 
 const Features = () => {
     return (
         <section>
-            <h1>Lightweight design, ready to use for team productivity.</h1>
+            <div className='title'>
+                <Heading text="Lightweight design, ready to use for " span="team productivity." />
+            </div>
+
             <div className='feature-boxes'>
                 <div className='box'>
-                    <h2>File Sharing</h2>
-                    <p>Securely share files within or outside your organization, and control access, track edits, and analyze the shared content stats.</p>
+                    <SubSubHeadings text="File Sharing" color="#651FFF" />
+                    <SubHeadingParagraphs text="Securely share files within or outside your organization, and control access, track edits, and analyze the shared content stats." />
                     <img src={Images.FeatureImage1} alt="" />
                 </div>
                 <div className='box'>
-                    <h2>File Sharing</h2>
-                    <p>Securely share files within or outside your organization, and control access, track edits, and analyze the shared content stats.</p>
+                    <SubSubHeadings text="File Sharing" color="#651FFF" />
+                    <SubHeadingParagraphs text="Securely share files within or outside your organization, and control access, track edits, and analyze the shared content stats."/>
+                
                     <img src={Images.FeatureImage2} alt="" />
                 </div>
                 <div className='box'>
