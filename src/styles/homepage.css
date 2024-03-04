@@ -98,8 +98,9 @@
 }
 
 .hero-content-container {
-    width: 50%;
-    gap: 30px;
+    width: 60%;
+    margin-top: 10px;
+    gap: 20px;
 }
 
 .hero-container img {
