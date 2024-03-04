@@ -17,7 +17,7 @@ const Home = () => {
           </div>
         </div>
 
-        <img src={Images.HeroImg} alt="" width="60%" />
+        <img src={Images.HeroImg} alt=""/>
       </main>
     </>
   )

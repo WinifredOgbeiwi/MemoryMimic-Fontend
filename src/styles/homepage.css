@@ -101,6 +101,19 @@
     width: 50%;
     gap: 30px;
 }
-.hero-content-container h1>span{
+
+.hero-container img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.hero-content-container h1>span {
     color: var(--mainTc);
+}
+
+@media (max-width:768px) {
+    .hero-content-container {
+        width: 85%;
+        gap: 10px;
+    }
 }
