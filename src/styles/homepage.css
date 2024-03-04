@@ -2,6 +2,7 @@
     opacity: 0.4;
     /* Adjust the opacity value as needed */
 }
+
 .path-design {
     text-decoration: underline var(--mainTc);
     text-underline-offset: .2rem;
@@ -26,11 +27,11 @@
 .mobile-nav {
     display: flex;
     flex-direction: column;
-align-items: center;
+    align-items: center;
     position: absolute;
     right: 0;
     top: 70px;
-    padding: 10px ;
+    padding: 10px;
     width: 50%;
     height: 100vh;
     z-index: 1000;
@@ -40,40 +41,42 @@ align-items: center;
 
 /* BUTTON */
 
-.nav_buttons {
+.nav-buttons {
     display: flex;
     gap: 20px;
 }
 
-.nav_button,
-.nav_button2 {
-    width: 5rem;
+.nav-button,
+.nav-button2 {
+    width: 100%;
     height: 2.2rem;
+    padding: 0 20px;
     border: 2px solid var(--mainTc);
 }
 
-.nav_button {
+.nav-button {
     background: var(--mainTc);
     color: white;
 }
 
-.nav_button2 {
+.nav-button2 {
     background: var(--mainBc);
     color: var(--mainTc);
 }
 
-.nav_button:hover {
+.nav-button:hover {
     color: var(--mainTc);
 }
 
-.nav_button2:hover {
+.nav-button2:hover {
     color: var(--mainBc);
 }
 
-.nav_button::before {
+.nav-button::before {
     background: var(--mainBc);
 }
-.nav_button2::before {
+
+.nav-button2::before {
     background: var(--mainTc);
 }
 
@@ -81,7 +84,23 @@ align-items: center;
     .nav-list {
         flex-direction: column;
     }
-        .nav_buttons {
-       margin-top: 20px;
-        }
+
+    .nav-buttons {
+        margin-top: 20px;
+    }
+}
+
+/* -------------------------HERO PAGE------------------------- */
+.hero-container,
+.hero-content-container {
+    flex-direction: column;
+    text-align: center;
+}
+
+.hero-content-container {
+    width: 50%;
+    gap: 30px;
+}
+.hero-content-container h1>span{
+    color: var(--mainTc);
 }

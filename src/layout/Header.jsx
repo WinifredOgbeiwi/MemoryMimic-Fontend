@@ -48,9 +48,9 @@ const Header = ({isNavShown, setNavShown}) => {
               )}
             />
           </ul>
-          <div className="nav_buttons">
-            <Button text="Login " specific="nav_button2" />
-            <Button text="Register" specific="nav_button" />
+          <div className="nav-buttons">
+            <Button text="Login " specific="nav-button2" />
+            <Button text="Register" specific="nav-button" />
           </div>
         </>
       ) : (
@@ -83,9 +83,9 @@ const Header = ({isNavShown, setNavShown}) => {
                 />
               </ul>
 
-              <div className="nav_buttons">
-                <Button text="Login " specific="nav_button2" />
-                <Button text="Register" specific="nav_button" />
+              <div className="nav-buttons">
+                <Button text="Login " specific="nav-button2"  />
+                <Button text="Register" specific="nav-button" />
               </div>
             </div>
           )}
