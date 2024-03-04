@@ -1,13 +1,15 @@
 :root {
     --mainBc: white;
     --mainTc: #651FFF;
-    --font-small: 14px;
-    --font-medium: 16px;
-    --font-large: 18px;
-    --font-xlarge: 20px;
-    --font-heading-small: 24px;
-    --font-heading-medium: 28px;
-    --font-heading-large: 32px;
+    --heading-text: 56px;
+    --sub-heading-text: 48px;
+    --sub-sub-heading-text: 42px;
+    --heading-paragraph-text: 20px;
+    --base-text: 16px;
+    --medium-text: 18px;
+    --large-text: 20px;
+    --extra-large-text: 36px;
+
 }
 
 * {
