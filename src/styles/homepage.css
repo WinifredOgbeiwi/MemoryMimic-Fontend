@@ -1,3 +1,7 @@
+.nav-container-opacity {
+    opacity: 0.4;
+    /* Adjust the opacity value as needed */
+}
 .path-design {
     text-decoration: underline var(--mainTc);
     text-underline-offset: .2rem;
@@ -20,14 +24,18 @@
 }
 
 .mobile-nav {
-    display: block;
+    display: flex;
+    flex-direction: column;
+align-items: center;
     position: absolute;
     right: 0;
     top: 70px;
-    padding: 10px;
-    /* width: 30%; */
+    padding: 10px ;
+    width: 50%;
     height: 100vh;
     z-index: 1000;
+    border: 3px solid var(--mainTc);
+    background-color: var(--mainBc);
 }
 
 /* BUTTON */
@@ -73,4 +81,7 @@
     .nav-list {
         flex-direction: column;
     }
+        .nav_buttons {
+       margin-top: 20px;
+        }
 }
