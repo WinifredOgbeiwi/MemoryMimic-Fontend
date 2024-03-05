@@ -85,7 +85,7 @@ const Header = ({ isNavShown, setNavShown }) => {
               </ul>
 
               <div className="nav-buttons">
-                <Button text="Login " specific="nav-button2" location={ROUTES.CONTACT} />
+                <Button text="Login " specific="nav-button2" location={ROUTES.LOGIN} />
                 <Button text="Register" specific="nav-button" location={ROUTES.REGISTER} />
               </div>
             </div>
