@@ -14,13 +14,18 @@ const Features = () => {
                 <div className='box box1'>
                     <SubSubHeadings text="File Sharing" color="#651FFF" />
                     <SubHeadingParagraphs text="Securely share files within or outside your organization, and control access, track edits, and analyze the shared content stats." />
-                    <img src={Images.FeatureImage1} alt="" />
+                    <div>
+                         <img src={Images.FeatureImage1} alt="" width="100%" />
+                    </div>
+                   
                 </div>
                 <div className='box box2'>
                     <SubSubHeadings text="File Sharing" color="#651FFF" />
                     <SubHeadingParagraphs text="Securely share files within or outside your organization, and control access, track edits, and analyze the shared content stats." />
-
-                    <img src={Images.FeatureImage2} alt="" />
+<div>
+     <img src={Images.FeatureImage2} alt="" width="100%"/>
+</div>
+                   
                 </div>
                 <div className='box'>
 
@@ -35,7 +40,7 @@ const Features = () => {
                     </div>
 
             <div>
-                  <img src={Images.FeatureImage3} alt="" />
+                  <img src={Images.FeatureImage3} alt=""  width="100%"/>
             </div>
                        
               
