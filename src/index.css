@@ -29,7 +29,9 @@ li {
 nav {
     padding: 40px;
 }
-
+section, main{
+    margin:0 60px;
+}
 .flex {
     display: flex;
     justify-content: space-between;
