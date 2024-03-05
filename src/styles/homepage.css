@@ -267,3 +267,33 @@
         display: none;
     }
 }
+
+/* --------------CALL TO ACTION------------------------ */
+.cta-container {
+    margin: 50px;
+}
+
+.cta-content-container {
+    width: 60%;
+    margin: 50px auto;
+    text-align: center;
+}
+.cta-content-container p {
+    margin: 30px 0 60px;
+}
+.cta-content-container div:nth-child(3) {
+width: 50%;
+margin: 0 auto;
+}
+
+@media (max-width:768px) {
+    .cta-container {
+        margin:50px 20px 0;
+    }
+        .cta-content-container {
+            width: 100%;
+        }
+                .cta-content-container div:nth-child(3) {
+                    width: 100%;
+                }
+}

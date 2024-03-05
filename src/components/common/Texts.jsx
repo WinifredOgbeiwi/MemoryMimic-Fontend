@@ -5,10 +5,13 @@ export const Heading = ({ text, span }) => (
 export const HeadingParagraphs = ({ text }) => (
     <p style={{ fontSize: "1.25rem" }}> {text} </p>
 )
-
-export const SubSubHeadings = ({ text, color }) => (
-    <h2 style={{ fontSize: "2.25rem", color: `${color}` }} > {text} </h2>
+export const SubHeadings = ({ text }) => (
+    <h2 style={{ fontSize: "3rem" }} > {text} </h2>
 )
 export const SubHeadingParagraphs = ({ text, color }) => (
     <p style={{ fontSize: "1.125rem", color: `${color}` }}> {text} </p>
+)
+
+export const SubSubHeadings = ({ text, color }) => (
+    <h2 style={{ fontSize: "2.25rem", color: `${color}` }} > {text} </h2>
 )
