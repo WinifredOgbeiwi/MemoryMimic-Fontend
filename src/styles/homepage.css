@@ -194,9 +194,11 @@
     .feature-boxes {
         grid-template-columns: repeat(1, 1fr);
     }
-.box {
-    padding: 15px;
-}
+
+    .box {
+        padding: 15px;
+    }
+
     .box:nth-child(3) {
         grid-column: auto;
         flex-direction: column;
@@ -253,4 +255,15 @@
     width: 60%;
     position: relative;
     top: 20px;
+}
+
+@media (max-width:768px) {
+    .subscribe-container {
+        margin: 50px 0;
+        padding: 23px;
+    }
+
+    .subscribe-img-container {
+        display: none;
+    }
 }

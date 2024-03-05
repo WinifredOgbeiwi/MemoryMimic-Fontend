@@ -15,17 +15,17 @@ const Features = () => {
                     <SubSubHeadings text="File Sharing" color="#651FFF" />
                     <SubHeadingParagraphs text="Securely share files within or outside your organization, and control access, track edits, and analyze the shared content stats." />
                     <div>
-                         <img src={Images.FeatureImage1} alt="" width="100%" />
+                        <img src={Images.FeatureImage1} alt="" width="100%" />
                     </div>
-                   
+
                 </div>
                 <div className='box box2'>
                     <SubSubHeadings text="File Sharing" color="#651FFF" />
                     <SubHeadingParagraphs text="Securely share files within or outside your organization, and control access, track edits, and analyze the shared content stats." />
-<div>
-     <img src={Images.FeatureImage2} alt="" width="100%"/>
-</div>
-                   
+                    <div>
+                        <img src={Images.FeatureImage2} alt="" width="100%" />
+                    </div>
+
                 </div>
                 <div className='box'>
 
@@ -33,18 +33,18 @@ const Features = () => {
                         <h3><span>Team collaboration</span> in  one simple place with privacy come first.</h3>
                         <SubHeadingParagraphs text="Securely share and work together with Deupload’s simple file storage and sharing, easy user management, unlimited file size, password protected links and more." />
                         <div className='nav-buttons'>
-                                <Button text="Start Now" specific="nav-button" />
-                        <Button text="More Feature" specific="nav-button2" />
+                            <Button text="Start Now" specific="nav-button" />
+                            <Button text="More Feature" specific="nav-button2" />
                         </div>
-                    
+
                     </div>
 
-            <div>
-                  <img src={Images.FeatureImage3} alt=""  width="100%"/>
-            </div>
-                       
-              
-                   
+                    <div>
+                        <img src={Images.FeatureImage3} alt="" width="100%" />
+                    </div>
+
+
+
 
                 </div>
             </div>
