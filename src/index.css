@@ -1,6 +1,8 @@
 :root {
     --mainBc: white;
     --mainTc: #651FFF;
+    --scBc1: #1A284E;
+    --scBc2: #E0F7FA;
     --heading-text: 56px;
     --sub-heading-text: 48px;
     --sub-sub-heading-text: 42px;
@@ -29,9 +31,10 @@ li {
 nav {
     padding: 40px;
 }
-section, main{
+.margin{
     margin:0 60px;
 }
+
 .flex {
     display: flex;
     justify-content: space-between;

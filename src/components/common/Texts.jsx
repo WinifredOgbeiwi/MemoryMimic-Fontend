@@ -9,6 +9,6 @@ export const HeadingParagraphs = ({ text }) => (
 export const SubSubHeadings = ({ text, color }) => (
     <h2 style={{ fontSize: "2.25rem", color: `${color}` }} > {text} </h2>
 )
-export const SubHeadingParagraphs = ({ text }) => (
-    <p style={{ fontSize: "1.125rem" }}> {text} </p>
+export const SubHeadingParagraphs = ({ text, color }) => (
+    <p style={{ fontSize: "1.125rem", color: `${color}` }}> {text} </p>
 )

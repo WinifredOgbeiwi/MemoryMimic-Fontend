@@ -5,7 +5,7 @@ import { Heading, SubHeadingParagraphs, SubSubHeadings, } from '../common/Texts'
 
 const Features = () => {
     return (
-        <section className='feature-container '>
+        <section className='feature-container margin '>
             <div className='title'>
                 <Heading text="Lightweight design, ready to use for " span="team productivity." />
             </div>
