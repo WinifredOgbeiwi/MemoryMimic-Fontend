@@ -9,6 +9,7 @@ import Faq from "./pages/web/Faq";
 import Header from "./layout/Header";
 import Login from "./pages/auth/Login";
 import Register from "./pages/auth/Register";
+import Footer from "./layout/Footer";
 
 const RouteLinks = () => {
   const [isNavShown, setNavShown] = useState(false);
@@ -24,19 +25,20 @@ const RouteLinks = () => {
 
   return (
     <>
-        {shouldShowHeader && (
-          <Header isNavShown={isNavShown} setNavShown={setNavShown} />
-        )}
-        <main className={`${isNavShown ? "nav-container-opacity" : ""}`}>
-          <Routes>
-            <Route path={ROUTES.HOME} element={<Home />} />
-            <Route path={ROUTES.CONTACT} element={<Contact />} />
-            <Route path={ROUTES.PRIVACY} element={<Privacy />} />
-            <Route path={ROUTES.FAQ} element={<Faq />} />
-            <Route path={ROUTES.LOGIN} element={<Login />} />
-            <Route path={ROUTES.REGISTER} element={<Register />} />
-          </Routes>
-        </main>
+      {shouldShowHeader && (
+        <Header isNavShown={isNavShown} setNavShown={setNavShown} />
+      )}
+      <main className={`${isNavShown ? "nav-container-opacity" : ""}`}>
+        <Routes>
+          <Route path={ROUTES.HOME} element={<Home />} />
+          <Route path={ROUTES.CONTACT} element={<Contact />} />
+          <Route path={ROUTES.PRIVACY} element={<Privacy />} />
+          <Route path={ROUTES.FAQ} element={<Faq />} />
+          <Route path={ROUTES.LOGIN} element={<Login />} />
+          <Route path={ROUTES.REGISTER} element={<Register />} />
+        </Routes>
+      </main>
+      {shouldShowHeader && (<Footer />)}
     </>
   );
 };

@@ -45,7 +45,9 @@ nav {
 .page-space {
     margin-top: 100px;
 }
-
+.page-height{
+    height: 100vh;
+}
 /* BUTTON */
 .button {
     border-radius: 3px;
